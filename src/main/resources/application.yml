@@ -1,5 +1,5 @@
 server:
-  port: 5432
+  port: 8081
 spring:
   flyway:
     enabled: true
@@ -12,7 +12,7 @@ spring:
     schemas: public
 
   datasource:
-    url: jdbc:postgresql://ec2-34-197-84-74.compute-1.amazonaws.com:5432/d2s516si419d71?socketTimeout=3
-    username: rhqccxqeueqcgf
-    password: 46e5a14c8267142f10b9604a082706b6f3e83764303955311bf6025b5b81925f
+    url: jdbc:postgresql://ec2-34-197-84-74.compute-1.amazonaws.com:5432/d90koelgp6i9tk
+    username: nupmuzcuczkybf
+    password: e30a0e936a37f57ff6aa06a8bb2ef47d976f5446755f7a94364387dc38eb2c63
     driverClassName: org.postgresql.Driver
